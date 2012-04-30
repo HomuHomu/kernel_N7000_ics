@@ -8,6 +8,10 @@ rm $(find kernel/usr/initramfs -name EMPTY_DIRECTORY -print)
 rm -rf $(find kernel/usr/initramfs -name .git -print)
 #Enable FIPS mode
 export USE_SEC_FIPS_MODE=true
+export LOCALVERSION="-HomuraNote-ICS"
+export KBUILD_BUILD_USER="Homura"
+export KBUILD_BUILD_HOST="Akemi"
+export KBUILD_BUILD_VERSION="HomuHomu"
 make dd_galaxynote_defconfig
 make -j8
 echo "Copying Modules"
