@@ -82,9 +82,12 @@ GSYMS
 GTAGS
 
 *.orig
+*.old
+*.log
 *~
 \#*#
 _t32
 _tool
-
+zImage
+bin2c
 Module.symvers
