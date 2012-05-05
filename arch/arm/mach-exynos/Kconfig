@@ -1459,3 +1459,9 @@ config BT_BCM4334
 	help
 	  Adds BCM4334 RFKILL driver for Broadcom BCM4334 chipset
 endif
+
+config FEATURE_TGS2
+	bool "Enable TweakGS2 feature support"
+	default y
+	help
+	 This option enables TweakGS2 features support.
