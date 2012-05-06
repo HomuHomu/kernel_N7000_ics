@@ -11,7 +11,7 @@ export USE_SEC_FIPS_MODE=true
 export LOCALVERSION="-HomuraNote-ICS"
 export KBUILD_BUILD_USER="Homura"
 export KBUILD_BUILD_HOST="Akemi"
-export KBUILD_BUILD_VERSION="HomuHomu2"
+export KBUILD_BUILD_VERSION="HomuHomu3"
 BUILD_DEFCONFIG=dd_galaxynote_defconfig
 
 # make start
